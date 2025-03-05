@@ -8,8 +8,8 @@ export default function Header() {
             Weather App
           </Link>
         </div>
-        <div className="search flex gap-3">
-          <input className="outline-none border-none w-96 p-2 rounded-xl" type="search" name="search" id="search" placeholder="search for cities" />
+        <div className="search flex gap-3 flex-wrap items-center justify-center">
+          <input className="outline-none border-none w-60 md:w-96 p-2 rounded-xl" type="search" name="search" id="search" placeholder="search for cities" />
           <button className="p-2 rounded-xl bg-white w-16 text-[#56c6e4] font-semibold">Search</button>
         </div>
       </div>
